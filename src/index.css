@@ -1,0 +1,459 @@
+/* ==========================================================================
+   Dr. Dosi's Surgery & Gynec Clinic - Main Stylesheet
+   Theme: Warm, Wooden, Rich, and Trustworthy
+   ========================================================================== */
+
+:root {
+  /* Brand Color Palette */
+  --color-walnut: #3B2416;          /* Deep rich walnut */
+  --color-walnut-dark: #26160D;     /* Darkest wood tone */
+  --color-walnut-light: #523420;    /* Lighter walnut */
+  --color-oak: #8B5A2B;             /* Warm teak / oak */
+  --color-oak-light: #A7713C;       /* Soft amber oak */
+  --color-cream: #FAF5EC;           /* Warm cream / ivory background */
+  --color-cream-subtle: #F4ECE0;    /* Muted section background */
+  --color-cream-card: #FFFFFF;      /* Clean soft white for content cards */
+  --color-card-border: rgba(139, 90, 43, 0.14); /* Subtle warm border */
+
+  /* Accents */
+  --color-gold: #C9A24B;            /* Muted gold accent */
+  --color-gold-hover: #D8B35C;      /* Warm golden glow */
+  --color-gold-soft: rgba(201, 162, 75, 0.16);
+  --color-maroon: #7A1F2B;          /* Deep maroon (from clinic signboard) */
+  --color-maroon-hover: #5F1520;    /* Deeper maroon on hover/active */
+  --color-maroon-light: #9B2D3C;
+
+  /* Typography Colors */
+  --color-text-primary: #2B1D14;    /* Deep espresso text */
+  --color-text-secondary: #5E4E42;  /* Medium warm muted text */
+  --color-text-light: #FAF5EC;      /* Light cream text for dark headers */
+  --color-text-muted-gold: #E5CD92; /* Soft gold text for captions */
+
+  /* UI Feedback */
+  --color-success: #2A6E3F;
+  --color-star: #D4A328;            /* Gold for 5-star review icons */
+
+  /* Wood-grain CSS Gradients */
+  --gradient-wood-header: linear-gradient(
+    135deg,
+    #2E1B10 0%,
+    #3B2416 28%,
+    #472B1A 45%,
+    #3B2416 65%,
+    #2B170D 100%
+  );
+  --gradient-wood-footer: linear-gradient(
+    180deg,
+    #321E12 0%,
+    #28160B 100%
+  );
+  --gradient-gold-line: linear-gradient(
+    90deg,
+    transparent 0%,
+    #C9A24B 25%,
+    #E7CB87 50%,
+    #C9A24B 75%,
+    transparent 100%
+  );
+  --gradient-hero-overlay: linear-gradient(
+    180deg,
+    rgba(38, 22, 13, 0.88) 0%,
+    rgba(59, 36, 22, 0.82) 50%,
+    rgba(43, 23, 13, 0.94) 100%
+  );
+
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgba(59, 36, 22, 0.06);
+  --shadow-md: 0 8px 24px rgba(59, 36, 22, 0.08);
+  --shadow-lg: 0 16px 36px rgba(59, 36, 22, 0.13);
+  --shadow-gold: 0 4px 18px rgba(201, 162, 75, 0.22);
+  --shadow-wood: 0 6px 20px rgba(38, 22, 13, 0.25);
+
+  /* Typography Stack */
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', 'Noto Serif Devanagari', Georgia, serif;
+  --font-sans: 'Inter', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Layout and Sizing */
+  --container-max: 1200px;
+  --header-height: 72px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-pill: 0px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s ease;
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base Styles & Reset - Sharp Edges Everywhere */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 !important; /* All elements have sharp edges */
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream);
+  color: var(--color-text-primary);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: var(--color-cream);
+  display: flex;
+  flex-direction: column;
+}
+
+/* High Contrast & Focus Accessibility */
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* Links & Buttons */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Typography Presets */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-serif);
+  color: var(--color-walnut);
+  font-weight: 700;
+  line-height: 1.25;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p, span, strong, a, address {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p {
+  color: var(--color-text-secondary);
+}
+
+/* Hindi Devanagari font refinement */
+html[lang="hi"] h1,
+html[lang="hi"] h2,
+html[lang="hi"] h3 {
+  font-family: 'Noto Serif Devanagari', var(--font-serif);
+  line-height: 1.35;
+}
+
+html[lang="hi"] body,
+html[lang="hi"] p,
+html[lang="hi"] button,
+html[lang="hi"] a {
+  font-family: 'Noto Sans Devanagari', var(--font-sans);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Standard Section Spacing */
+.section-padding {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+}
+
+/* Section Header Component Styling */
+.section-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 3rem auto;
+}
+
+.section-tag {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-oak);
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 2.35rem;
+  color: var(--color-walnut);
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.95rem;
+  }
+}
+
+.gold-divider {
+  width: 70px;
+  height: 2px;
+  background: var(--gradient-gold-line);
+  margin: 0.85rem auto 1.15rem auto;
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  font-size: 1.08rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+/* Common Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  transition: all var(--transition-normal);
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  min-height: 48px;
+}
+
+/* Primary Button: Deep Maroon from clinic signboard */
+.btn-primary {
+  background-color: var(--color-maroon);
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(122, 31, 43, 0.32);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background-color: var(--color-maroon-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(122, 31, 43, 0.42);
+}
+
+/* Secondary Button: Warm Teak / Outline */
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-cream);
+  border: 1.5px solid var(--color-gold);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  background-color: rgba(201, 162, 75, 0.18);
+  color: #FFFFFF;
+  border-color: #E7CB87;
+  transform: translateY(-2px);
+}
+
+/* Secondary Button for Light Background */
+.btn-secondary-light {
+  background-color: #FFFFFF;
+  color: var(--color-walnut);
+  border: 1.5px solid var(--color-card-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary-light:hover,
+.btn-secondary-light:focus-visible {
+  background-color: var(--color-cream);
+  border-color: var(--color-gold);
+  color: var(--color-maroon);
+  transform: translateY(-2px);
+}
+
+/* WhatsApp Button */
+.btn-whatsapp {
+  background-color: #128C7E;
+  color: #FFFFFF;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(18, 140, 126, 0.28);
+}
+
+.btn-whatsapp:hover,
+.btn-whatsapp:focus-visible {
+  background-color: #075E54;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(18, 140, 126, 0.38);
+}
+
+/* Call Button Header */
+.btn-header-call {
+  background-color: var(--color-maroon);
+  color: #FFFFFF;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 2px 8px rgba(122, 31, 43, 0.25);
+  transition: all var(--transition-fast);
+}
+
+.btn-header-call:hover,
+.btn-header-call:focus-visible {
+  background-color: var(--color-maroon-hover);
+  transform: translateY(-1px);
+}
+
+/* Floating Call Button on Mobile Only */
+.floating-call-btn {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .floating-call-btn {
+    display: flex;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    z-index: 999;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.4rem;
+    background: linear-gradient(135deg, var(--color-maroon) 0%, #902433 100%);
+    color: #FFFFFF;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: var(--radius-pill);
+    box-shadow: 0 8px 24px rgba(122, 31, 43, 0.48), 0 0 0 1px rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  }
+
+  .floating-call-btn:active {
+    transform: scale(0.96);
+  }
+}
+
+/* Scroll Fade-in Animation */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(22px);
+  visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+/* Custom Scrollbar for horizontal carousel */
+.scroll-snap-x {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gold) transparent;
+  padding-bottom: 1rem;
+}
+
+.scroll-snap-x::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll-snap-x::-webkit-scrollbar-track {
+  background: rgba(139, 90, 43, 0.08);
+  border-radius: 3px;
+}
+
+.scroll-snap-x::-webkit-scrollbar-thumb {
+  background-color: var(--color-gold);
+  border-radius: 3px;
+}
+
+.scroll-snap-item {
+  scroll-snap-align: start;
+  flex: 0 0 calc(85% - 0.5rem);
+}
+
+@media (min-width: 640px) {
+  .scroll-snap-item {
+    flex: 0 0 calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 992px) {
+  .scroll-snap-item {
+    flex: 0 0 calc(33.333% - 1.25rem);
+  }
+}
+
+/* Subtle Wood Texture Gradient Background Utilities */
+.bg-wood-header {
+  background: var(--gradient-wood-header);
+}
+
+.bg-wood-footer {
+  background: var(--gradient-wood-footer);
+}
+
+.bg-cream-subtle {
+  background-color: var(--color-cream-subtle);
+}
+
+.card-base {
+  background-color: var(--color-cream-card);
+  border: 1px solid var(--color-card-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.card-base:hover {
+  box-shadow: var(--shadow-md);
+}
