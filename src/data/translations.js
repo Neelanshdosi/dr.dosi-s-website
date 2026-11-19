@@ -30,7 +30,7 @@ export const TRANSLATIONS = {
 
     // About Brief Banner
     aboutHeading: "A Calming Haven for Healing and Motherhood",
-    aboutText: "Located in the heart of Nai Abaadi, Mandsaur, Dr. Dosi's Surgery & Gynec Clinic is dedicated to offering personalized, dignified, and gentle healthcare. Whether you are embracing motherhood or seeking dependable surgical advice, our doctors offer patient, clear, and reassuring counsel at every step.",
+    aboutText: "Located in the heart of Mandsaur, Dr. Dosi's Surgery & Gynec Clinic is dedicated to offering personalized, dignified, and gentle healthcare. Whether you are embracing motherhood or seeking dependable surgical advice, our doctors offer patient, clear, and reassuring counsel at every step.",
     aboutHighlight1Title: "Patient-First Listening",
     aboutHighlight1Desc: "Ample consultation time with transparent, stress-free guidance.",
     aboutHighlight2Title: "Safe Deliveries",
@@ -116,7 +116,7 @@ export const TRANSLATIONS = {
 
     // About Brief Banner
     aboutHeading: "मातृत्व एवं स्वास्थ्य लाभ के लिए एक आत्मीय व शांत वातावरण",
-    aboutText: "नई आबादी, मंदसौर में स्थित डॉ. दोसी सर्जरी एवं गायनेक क्लीनिक में प्रत्येक मरीज को आदर, समय और सहानुभूति के साथ उत्तम चिकित्सा प्रदान की जाती है। गर्भावस्था के सफर से लेकर सर्जरी परामर्श तक, हमारे डॉक्टर्स हर कदम पर पूरी संतुष्टि और विश्वास के साथ मार्गदर्शन करते हैं।",
+    aboutText: "मंदसौर के हृदय स्थल में स्थित डॉ. दोसी सर्जरी एवं गायनेक क्लीनिक में प्रत्येक मरीज को आदर, समय और सहानुभूति के साथ उत्तम चिकित्सा प्रदान की जाती है। गर्भावस्था के सफर से लेकर सर्जरी परामर्श तक, हमारे डॉक्टर्स हर कदम पर पूरी संतुष्टि और विश्वास के साथ मार्गदर्शन करते हैं।",
     aboutHighlight1Title: "सहानुभूतिपूर्ण परामर्श",
     aboutHighlight1Desc: "मरीज की हर शंका का धैर्यपूर्वक व शांत मन से निवारण।",
     aboutHighlight2Title: "सुरक्षित प्रसव",
