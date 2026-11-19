@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { LanguageProvider } from './context/LanguageContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -88,6 +89,7 @@ export default function App() {
   return (
     <LanguageProvider>
       <MainContent />
+      <Analytics />
     </LanguageProvider>
   );
 }
