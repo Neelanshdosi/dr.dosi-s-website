@@ -5,7 +5,7 @@
 
 export const CLINIC_INFO = {
   name: "Dr. Dosi's Surgery & Gynec Clinic",
-  hindiName: "डॉ. दोसी सर्जरी एवं गायनेक क्लीनिक",
+  hindiName: "डॉ. डोसी सर्जरी एवं गायनेक क्लीनिक",
   tagline: "Care you can trust, close to heart.",
   hindiTagline: "विश्वसनीय चिकित्सा, आपके दिल के करीब।",
   
@@ -13,7 +13,7 @@ export const CLINIC_INFO = {
     {
       id: "dr-manisha-dosi",
       name: "Dr. Manisha Dosi",
-      hindiName: "डॉ. मनीषा दोसी",
+      hindiName: "डॉ. मनीषा डोसी",
       initials: "MD",
       degrees: "MBBS, DGO",
       college: "Mahatma Gandhi Medical College, Indore",
@@ -39,7 +39,7 @@ export const CLINIC_INFO = {
     {
       id: "dr-jinesh-dosi",
       name: "Dr. Jinesh Dosi",
-      hindiName: "डॉ. जिनेश दोसी",
+      hindiName: "डॉ. जिनेश डोसी",
       initials: "JD",
       degrees: "MBBS, MS",
       college: "Gajra Raja Medical College, Gwalior",
@@ -79,7 +79,7 @@ export const CLINIC_INFO = {
     state: "Madhya Pradesh",
     pincode: "458001",
     full: "Dosi Bhawan, Manish Telecom Wali Gali, Kambal Kendra Road / Daloda Chopati, Nai Abaadi, Mandsaur, Madhya Pradesh 458001 (near Mehta Netralaya)",
-    hindiFull: "दोसी भवन, मनीष टेलीकॉम वाली गली, कंबल केंद्र रोड / दलोदा चौपाटी, नई आबादी, मंदसौर, मध्य प्रदेश 458001 (मेहता नेत्रालय के पास)"
+    hindiFull: "डोसी भवन, मनीष टेलीकॉम वाली गली, कंबल केंद्र रोड / दलोदा चौपाटी, नई आबादी, मंदसौर, मध्य प्रदेश 458001 (मेहता नेत्रालय के पास)"
   },
 
   // Hours of operation
@@ -139,9 +139,9 @@ export const GALLERY_ITEMS = [
     id: "exterior",
     src: "/assets/exterior.jpg",
     alt: "Dr. Dosi's Surgery & Gynec Clinic building exterior in Mandsaur",
-    hindiAlt: "डॉ. दोसी सर्जरी एवं गायनेक क्लीनिक का बाहरी दृश्य, मंदसौर",
+    hindiAlt: "डॉ. डोसी सर्जरी एवं गायनेक क्लीनिक का बाहरी दृश्य, मंदसौर",
     caption: "Clinic Exterior – Dosi Bhawan, Nai Abaadi",
-    hindiCaption: "क्लीनिक भवन – दोसी भवन, नई आबादी"
+    hindiCaption: "क्लीनिक भवन – डोसी भवन, नई आबादी"
   },
   {
     id: "waiting-lounge",
@@ -155,7 +155,7 @@ export const GALLERY_ITEMS = [
     id: "medical-store",
     src: "/assets/medical_store.jpg",
     alt: "In-house Dosi Medical Stores providing medicines on premises for patient convenience",
-    hindiAlt: "मरीजों की सुविधा के लिए क्लीनिक परिसर में इन-हाउस दोसी मेडिकल स्टोर",
+    hindiAlt: "मरीजों की सुविधा के लिए क्लीनिक परिसर में इन-हाउस डोसी मेडिकल स्टोर",
     caption: "In-House Medical Store – For Patient Convenience",
     hindiCaption: "इन-हाउस मेडिकल स्टोर – मरीजों की सुविधा हेतु"
   },
@@ -163,7 +163,7 @@ export const GALLERY_ITEMS = [
     id: "consultation-gynec",
     src: "/assets/consultation_dr_manisha.jpg",
     alt: "Dr. Manisha Dosi's gynecology consultation and examination chamber",
-    hindiAlt: "डॉ. मनीषा दोसी का स्त्री रोग परामर्श एवं परीक्षण कक्ष",
+    hindiAlt: "डॉ. मनीषा डोसी का स्त्री रोग परामर्श एवं परीक्षण कक्ष",
     caption: "Gynecology Consultation & Examination Chamber",
     hindiCaption: "स्त्री रोग विशेषज्ञ परामर्श एवं परीक्षण कक्ष"
   },
@@ -171,7 +171,7 @@ export const GALLERY_ITEMS = [
     id: "consultation-surgery",
     src: "/assets/consultation.jpg",
     alt: "Dr. Jinesh Dosi's surgical consultation and patient evaluation chamber",
-    hindiAlt: "डॉ. जिनेश दोसी का सर्जिकल परामर्श एवं परीक्षण कक्ष",
+    hindiAlt: "डॉ. जिनेश डोसी का सर्जिकल परामर्श एवं परीक्षण कक्ष",
     caption: "Surgical Consultation & Examination Chamber",
     hindiCaption: "सर्जिकल परामर्श एवं परीक्षण कक्ष"
   },
@@ -179,7 +179,7 @@ export const GALLERY_ITEMS = [
     id: "reception",
     src: "/assets/reception.jpg",
     alt: "Reception counter and admission desk at Dr. Dosi's Clinic",
-    hindiAlt: "डॉ. दोसी क्लीनिक का स्वागत कक्ष एवं पंजीकरण पटल",
+    hindiAlt: "डॉ. डोसी क्लीनिक का स्वागत कक्ष एवं पंजीकरण पटल",
     caption: "Reception Counter & Registration Desk",
     hindiCaption: "स्वागत कक्ष एवं पंजीकरण पटल"
   }

@@ -47,7 +47,7 @@ export default function Footer() {
               </svg>
               <span>
                 {isHindi
-                  ? "दोसी भवन, मनीष टेलीकॉम वाली गली, कंबल केंद्र रोड, नई आबादी, मंदसौर (म.प्र.) 458001"
+                  ? "डोसी भवन, मनीष टेलीकॉम वाली गली, कंबल केंद्र रोड, नई आबादी, मंदसौर (म.प्र.) 458001"
                   : "Dosi Bhawan, Manish Telecom Wali Gali, Kambal Kendra Road, Nai Abaadi, Mandsaur (M.P.) 458001"}
               </span>
             </address>
