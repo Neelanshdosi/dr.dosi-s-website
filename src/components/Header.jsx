@@ -221,7 +221,7 @@ export default function Header() {
         .brand-link {
           display: flex;
           align-items: center;
-          gap: 0.75rem;
+          gap: 0.85rem;
           text-decoration: none;
           color: var(--color-text-light);
           flex-shrink: 0;
@@ -230,14 +230,18 @@ export default function Header() {
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 42px;
-          height: 42px;
+          width: 48px;
+          height: 48px;
           border-radius: 50%;
           background: #3B2416;
           border: 1.5px solid var(--color-gold);
           overflow: hidden;
           flex-shrink: 0;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+          transition: transform var(--transition-fast);
+        }
+        .brand-link:hover .brand-emblem {
+          transform: scale(1.04);
         }
         .brand-logo-img {
           width: 100%;
@@ -251,22 +255,67 @@ export default function Header() {
         }
         .brand-title {
           font-family: var(--font-serif);
-          font-size: 1.15rem;
+          font-size: 1.45rem;
           font-weight: 700;
           color: #FAF5EC;
           letter-spacing: 0.02em;
-          line-height: 1.2;
+          line-height: 1.15;
           white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
+          transition: color var(--transition-fast);
         }
-        @media (max-width: 420px) {
+        .brand-link:hover .brand-title {
+          color: #FFFFFF;
+        }
+        .brand-sub {
+          font-size: 0.78rem;
+          color: var(--color-text-muted-gold);
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          margin-top: 2px;
+        }
+
+        @media (min-width: 1280px) {
           .brand-title {
-            font-size: 0.98rem;
+            font-size: 1.65rem;
+          }
+          .brand-sub {
+            font-size: 0.82rem;
           }
           .brand-emblem {
-            width: 34px;
-            height: 34px;
+            width: 52px;
+            height: 52px;
+          }
+        }
+
+        @media (max-width: 1024px) {
+          .brand-title {
+            font-size: 1.32rem;
+          }
+        }
+
+        @media (max-width: 640px) {
+          .brand-title {
+            font-size: 1.2rem;
+          }
+          .brand-sub {
+            font-size: 0.72rem;
+          }
+          .brand-emblem {
+            width: 42px;
+            height: 42px;
+          }
+        }
+
+        @media (max-width: 420px) {
+          .brand-title {
+            font-size: 1.08rem;
+          }
+          .brand-sub {
+            font-size: 0.68rem;
+          }
+          .brand-emblem {
+            width: 36px;
+            height: 36px;
           }
           .header-container {
             gap: 0.5rem;
@@ -275,19 +324,14 @@ export default function Header() {
             gap: 0.4rem;
           }
         }
+
         @media (max-width: 360px) {
           .brand-title {
-            font-size: 0.88rem;
+            font-size: 0.98rem;
           }
           .brand-sub {
             display: none;
           }
-        }
-        .brand-sub {
-          font-size: 0.72rem;
-          color: var(--color-text-muted-gold);
-          letter-spacing: 0.04em;
-          text-transform: uppercase;
         }
 
         /* Desktop Nav */
@@ -435,7 +479,8 @@ export default function Header() {
           font-family: var(--font-serif);
           color: #FAF5EC;
           font-weight: 700;
-          font-size: 1.1rem;
+          font-size: 1.25rem;
+          line-height: 1.2;
         }
         .drawer-close-btn {
           color: #FAF5EC;
