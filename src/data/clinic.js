@@ -16,6 +16,8 @@ export const CLINIC_INFO = {
       hindiName: "डॉ. मनीषा दोसी",
       initials: "MD",
       degrees: "MBBS, DGO",
+      college: "Mahatma Gandhi Medical College, Indore",
+      hindiCollege: "महात्मा गांधी मेडिकल कॉलेज, इंदौर",
       specialty: "Gynecologist",
       hindiSpecialty: "स्त्री रोग विशेषज्ञ",
       focusAreas: [
@@ -40,6 +42,8 @@ export const CLINIC_INFO = {
       hindiName: "डॉ. जिनेश दोसी",
       initials: "JD",
       degrees: "MBBS, MS",
+      college: "Gajra Raja Medical College, Gwalior",
+      hindiCollege: "गजरा राजा मेडिकल कॉलेज, ग्वालियर",
       specialty: "Surgeon",
       hindiSpecialty: "सर्जन",
       focusAreas: [

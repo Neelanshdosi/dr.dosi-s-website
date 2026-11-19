@@ -46,6 +46,29 @@ export default function DoctorCard({ doctor, isHindi, t, onBookClick }) {
               <span className="badge-confirmed">{doctor.degrees}</span>
             )}
           </div>
+
+          {doctor.college && (
+            <div className="doctor-college-row">
+              <svg
+                className="doctor-college-icon"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+              <span className="doctor-college-name">
+                {isHindi ? doctor.hindiCollege || doctor.college : doctor.college}
+              </span>
+            </div>
+          )}
         </div>
       </div>
 
@@ -169,6 +192,26 @@ export default function DoctorCard({ doctor, isHindi, t, onBookClick }) {
           font-weight: 700;
           letter-spacing: 0.05em;
           display: inline-block;
+        }
+
+        .doctor-college-row {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.45rem;
+          margin-top: 0.4rem;
+          color: #E8D7B8;
+          font-size: 0.84rem;
+          line-height: 1.35;
+          letter-spacing: 0.01em;
+        }
+
+        .doctor-college-icon {
+          color: var(--color-gold);
+          flex-shrink: 0;
+        }
+
+        .doctor-college-name {
+          font-weight: 500;
         }
 
         .badge-pending {
