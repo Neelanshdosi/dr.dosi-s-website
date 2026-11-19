@@ -43,12 +43,12 @@ export const CLINIC_INFO = {
       specialty: "Surgeon",
       hindiSpecialty: "सर्जन",
       focusAreas: [
-        "General surgical procedures",
+        "General surgical procedures & endoscopy",
         "Pre-operative and post-operative surgical care",
         "Minor and emergency surgical consultations"
       ],
       hindiFocusAreas: [
-        "सामान्य शल्य चिकित्सा (जनरल सर्जरी प्रक्रियाएं)",
+        "सामान्य शल्य चिकित्सा एवं एंडोस्कोपी",
         "शल्य चिकित्सा पूर्व एवं पश्चात देखभाल",
         "लघु एवं आपातकालीन सर्जिकल परामर्श"
       ],
@@ -101,8 +101,8 @@ export const CLINIC_SERVICES = [
     icon: "consultation",
     title: "Gynecology Consultations",
     hindiTitle: "स्त्री रोग परामर्श",
-    description: "Gynecology consultations for women's reproductive health, hormonal balance, and wellness.",
-    hindiDescription: "महिला स्वास्थ्य, हार्मोनल संतुलन एवं नियमित स्त्री रोग समस्याओं हेतु विशेषज्ञ परामर्श।"
+    description: "Gynecology consultations for women's reproductive health, hormonal imbalance, and wellness.",
+    hindiDescription: "महिला स्वास्थ्य, हार्मोनल असंतुलन एवं नियमित स्त्री रोग समस्याओं हेतु विशेषज्ञ परामर्श।"
   },
   {
     id: "pregnancy-delivery-care",
@@ -117,16 +117,16 @@ export const CLINIC_SERVICES = [
     icon: "gynec-surgery",
     title: "Gynecological Surgeries",
     hindiTitle: "स्त्री रोग शल्य चिकित्सा",
-    description: "Gynecological surgeries for fibroids, ovarian cysts, hysterectomy, and related conditions.",
-    hindiDescription: "रसौली, सिस्ट एवं अन्य स्त्री रोग संबंधी आवश्यक शल्य चिकित्सा प्रक्रियाएं।"
+    description: "Gynecological surgeries for fibroids, ovarian cysts, ectopic pregnancy, hysterectomy, and related conditions.",
+    hindiDescription: "रसौली, डिम्बग्रंथि सिस्ट, एक्टोपिक प्रेगनेंसी एवं अन्य स्त्री रोग संबंधी आवश्यक शल्य चिकित्सा प्रक्रियाएं।"
   },
   {
     id: "general-surgical-procedures",
     icon: "surgery",
-    title: "General Surgical Procedures",
-    hindiTitle: "सामान्य सर्जिकल प्रक्रियाएं",
-    description: "General surgical procedures with thorough pre-operative assessment and post-operative recovery care.",
-    hindiDescription: "कुशल शल्य मूल्यांकन, सामान्य सर्जिकल उपचार एवं ऑपरेशन के बाद रिकवरी देखभाल।"
+    title: "General Surgical Procedures & Endoscopy",
+    hindiTitle: "सामान्य सर्जिकल प्रक्रियाएं एवं एंडोस्कोपी",
+    description: "General surgical procedures and diagnostic & therapeutic endoscopy with thorough pre-operative assessment and post-operative recovery care.",
+    hindiDescription: "कुशल शल्य मूल्यांकन, सामान्य सर्जिकल उपचार, एंडोस्कोपी एवं ऑपरेशन के बाद रिकवरी देखभाल।"
   }
 ];
 
