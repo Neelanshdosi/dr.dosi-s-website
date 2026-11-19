@@ -36,8 +36,8 @@ export default function Header() {
     { href: '#home', label: t('navHome') },
     { href: '#doctors', label: t('navDoctors') },
     { href: '#services', label: t('navServices') },
-    { href: '#reviews', label: t('navReviews') },
     { href: '#gallery', label: t('navGallery') },
+    { href: '#reviews', label: t('navReviews') },
     { href: '#contact', label: t('navContact') }
   ];
 

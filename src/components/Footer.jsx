@@ -9,8 +9,8 @@ export default function Footer() {
     { href: '#home', label: t('navHome') },
     { href: '#doctors', label: t('navDoctors') },
     { href: '#services', label: t('navServices') },
-    { href: '#reviews', label: t('navReviews') },
     { href: '#gallery', label: t('navGallery') },
+    { href: '#reviews', label: t('navReviews') },
     { href: '#contact', label: t('navContact') }
   ];
 
@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Emergency Note */}
         <div className="footer-bottom-bar">
           <p className="footer-copyright">
-            © 2026 Dr. Dosi's Surgery &amp; Gynec Clinic. {t('allRightsReserved')}
+            © 2017 Dr. Dosi's Surgery &amp; Gynec Clinic. {t('allRightsReserved')}
           </p>
           <p className="footer-disclaimer">
             {t('emergencyDisclaimer')}

@@ -60,14 +60,14 @@ function MainContent() {
           <Services />
         </div>
 
-        {/* 5. Reviews Section */}
-        <div className="fade-in-section">
-          <Reviews />
-        </div>
-
-        {/* 6. Gallery Section */}
+        {/* 5. Gallery Section */}
         <div className="fade-in-section">
           <Gallery />
+        </div>
+
+        {/* 6. Reviews Section */}
+        <div className="fade-in-section">
+          <Reviews />
         </div>
 
         {/* 7. Contact & Location Section */}
