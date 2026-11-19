@@ -87,7 +87,7 @@ export const TRANSLATIONS = {
     quickLinks: "Quick Navigation",
     consultationNotice: "Consultation hours are subject to doctor availability and hospital commitments. Calling in advance is always recommended.",
     allRightsReserved: "All rights reserved.",
-    emergencyDisclaimer: "For acute surgical or medical emergencies outside regular hours, please head to the nearest emergency hospital."
+    emergencyDisclaimer: "For acute emergencies outside regular hours, please call ahead for doctor's availability."
   },
 
   hi: {
@@ -173,6 +173,6 @@ export const TRANSLATIONS = {
     quickLinks: "त्वरित लिंक",
     consultationNotice: "परामर्श का समय डॉक्टर्स की उपलब्धता एवं अस्पताल प्रक्रियाओं के अनुसार परिवर्तनशील हो सकता है। आने से पूर्व कॉल करना श्रेयस्कर है।",
     allRightsReserved: "सर्वाधिकार सुरक्षित।",
-    emergencyDisclaimer: "क्लीनिक समय के अतिरिक्त गंभीर आपातकालीन स्थिति में कृपया नजदीकी आपातकालीन अस्पताल से संपर्क करें।"
+    emergencyDisclaimer: "क्लीनिक समय के अतिरिक्त आपातकालीन स्थिति में, डॉक्टर की उपलब्धता जानने हेतु कृपया पहले फोन करें।"
   }
 };
