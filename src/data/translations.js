@@ -20,12 +20,12 @@ export const TRANSLATIONS = {
     menuClose: "Close navigation menu",
 
     // Hero Section
-    heroHeading: "Care you can trust, close to home.",
-    heroSubheading: "Gynecology and surgery under one roof in Mandsaur, with Dr. Jinesh Dosi and Dr. Manisha Dosi.",
+    heroHeading: "Care you can trust, close to heart.",
+    heroSubheading: "Surgery and gynecology under one roof in Mandsaur.",
     heroTrustPoints: [
-      "20+ years of trust",
+      "25+ years of trust",
       "4.6 rating on Google",
-      "Calm, private & hygienic clinical environment"
+      "Gentle patient care"
     ],
 
     // About Brief Banner
@@ -106,12 +106,12 @@ export const TRANSLATIONS = {
     menuClose: "मेनू बंद करें",
 
     // Hero Section
-    heroHeading: "विश्वसनीय चिकित्सा, आपके अपने शहर में।",
-    heroSubheading: "मंदसौर में स्त्री रोग और सर्जरी की सुविधा एक ही छत के नीचे, डॉ. जिनेश दोसी और डॉ. मनीषा दोसी के साथ।",
+    heroHeading: "विश्वसनीय चिकित्सा, आपके दिल के करीब।",
+    heroSubheading: "मंदसौर में सर्जरी और स्त्री रोग की सुविधा एक ही छत के नीचे।",
     heroTrustPoints: [
-      "20+ वर्षों का अटूट विश्वास",
-      "गूगल पर 4.6 सकारात्मक रेटिंग",
-      "शांत, स्वच्छ, निजी एवं सुरक्षित वातावरण"
+      "25+ वर्षों का विश्वास",
+      "गूगल पर 4.6 रेटिंग",
+      "सहानुभूतिपूर्ण देखभाल"
     ],
 
     // About Brief Banner

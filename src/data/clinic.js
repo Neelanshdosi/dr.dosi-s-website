@@ -6,8 +6,8 @@
 export const CLINIC_INFO = {
   name: "Dr. Dosi's Surgery & Gynec Clinic",
   hindiName: "डॉ. दोसी सर्जरी एवं गायनेक क्लीनिक",
-  tagline: "Care you can trust, close to home.",
-  hindiTagline: "विश्वसनीय चिकित्सा, आपके अपने शहर में।",
+  tagline: "Care you can trust, close to heart.",
+  hindiTagline: "विश्वसनीय चिकित्सा, आपके दिल के करीब।",
   
   doctors: [
     {
@@ -60,8 +60,8 @@ export const CLINIC_INFO = {
 
   // Contact details
   phones: [
-    { display: "+91 74223 16913", tel: "+917422316913", label: "Clinic OPD" },
-    { display: "+91 94258 57236", tel: "+919425857236", label: "Clinic Mobile" }
+    { display: "+91 94258 57236", tel: "+919425857236", label: "Clinic Mobile / OPD" },
+    { display: "+91 74223 16913", tel: "+917422316913", label: "Clinic Landline" }
   ],
   whatsappNumber: "+919425857236",
   whatsappUrl: "https://wa.me/919425857236?text=Hello%20Dr.%20Dosi's%20Clinic,%20I%20would%20like%20to%20inquire%20about%20a%20consultation.",

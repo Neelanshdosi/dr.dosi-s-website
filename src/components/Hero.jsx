@@ -109,6 +109,28 @@ export default function Hero() {
                 <span>{t('getDirections')}</span>
               </a>
             </div>
+
+            {/* Trust Points */}
+            <div className="hero-trust-list">
+              <div className="trust-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>{isHindi ? "25+ वर्षों का विश्वास" : "25+ years of trust"}</span>
+              </div>
+              <div className="trust-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>{isHindi ? "गूगल पर 4.6 रेटिंग" : "4.6 rating on Google"}</span>
+              </div>
+              <div className="trust-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>{isHindi ? "सहानुभूतिपूर्ण देखभाल" : "Gentle patient care"}</span>
+              </div>
+            </div>
           </div>
 
           {/* Hero Right Framed Image - Full Image Fully Visible */}
@@ -340,6 +362,25 @@ export default function Hero() {
             max-width: 100%;
             flex: 1 1 100%;
           }
+        }
+
+        /* Trust list */
+        .hero-trust-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.25rem;
+          padding-top: 1.25rem;
+          margin-top: 1.75rem;
+          border-top: 1px solid rgba(201, 162, 75, 0.2);
+        }
+
+        .trust-item {
+          display: flex;
+          align-items: center;
+          gap: 0.45rem;
+          color: #E2D2C3;
+          font-size: 0.88rem;
+          font-weight: 500;
         }
 
         /* Visual Framed Card - Full Aspect Ratio 1024x922 Display */
