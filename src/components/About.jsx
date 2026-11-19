@@ -85,7 +85,7 @@ export default function About() {
         }
         .about-header {
           text-align: center;
-          max-width: 780px;
+          max-width: 860px;
           margin: 0 auto 2.5rem auto;
         }
         .about-heading {

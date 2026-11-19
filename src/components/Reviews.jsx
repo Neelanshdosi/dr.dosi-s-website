@@ -239,6 +239,7 @@ export default function Reviews() {
         @media (min-width: 992px) {
           .review-carousel-item {
             flex: 0 0 31.8%;
+            max-width: 440px;
           }
         }
 

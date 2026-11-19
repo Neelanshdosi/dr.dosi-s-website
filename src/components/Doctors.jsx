@@ -66,7 +66,7 @@ export default function Doctors() {
           display: grid;
           grid-template-columns: 1fr;
           gap: 2.25rem;
-          max-width: 980px;
+          max-width: 1100px;
           margin: 0 auto 3rem auto;
         }
 
@@ -74,6 +74,13 @@ export default function Doctors() {
           .doctors-grid {
             grid-template-columns: 1fr 1fr;
             gap: 2.5rem;
+          }
+        }
+
+        @media (min-width: 1400px) {
+          .doctors-grid {
+            max-width: 1240px;
+            gap: 3rem;
           }
         }
 
@@ -86,7 +93,7 @@ export default function Doctors() {
           border: 1px solid rgba(201, 162, 75, 0.35);
           border-radius: var(--radius-pill);
           padding: 0.85rem 1.5rem;
-          max-width: 650px;
+          max-width: 760px;
           margin: 0 auto;
           color: var(--color-walnut);
           font-size: 0.92rem;

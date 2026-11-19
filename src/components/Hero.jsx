@@ -194,13 +194,20 @@ export default function Hero() {
         @media (min-width: 992px) {
           .hero-grid {
             grid-template-columns: 1.15fr 0.85fr;
-            gap: 4rem;
+            gap: 3.5rem;
+          }
+        }
+
+        @media (min-width: 1400px) {
+          .hero-grid {
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 4.5rem;
           }
         }
 
         .hero-heading {
-          font-size: 2.75rem;
-          line-height: 1.18;
+          font-size: clamp(2.1rem, 2.5vw + 0.8rem, 3.35rem);
+          line-height: 1.16;
           color: #FFFFFF;
           margin-bottom: 1rem;
           letter-spacing: -0.01em;
@@ -228,11 +235,11 @@ export default function Hero() {
         }
 
         .hero-subheading {
-          font-size: 1.15rem;
+          font-size: 1.18rem;
           line-height: 1.65;
           color: #E6D7C8;
           margin-bottom: 2rem;
-          max-width: 600px;
+          max-width: 720px;
         }
 
         /* Doctor Cards Grid */
@@ -396,7 +403,13 @@ export default function Hero() {
           border: 1px solid rgba(201, 162, 75, 0.45);
           box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
           width: 100%;
-          max-width: 520px;
+          max-width: 580px;
+        }
+
+        @media (min-width: 1440px) {
+          .framed-exterior-card {
+            max-width: 640px;
+          }
         }
 
         .card-outer-frame {
