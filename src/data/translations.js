@@ -23,7 +23,7 @@ export const TRANSLATIONS = {
     heroHeading: "Care you can trust, close to heart.",
     heroSubheading: "Surgery and gynecology under one roof in Mandsaur.",
     heroTrustPoints: [
-      "25+ years of trust",
+      "25+ years of experience",
       "4.6 rating on Google",
       "Gentle patient care"
     ],
@@ -109,7 +109,7 @@ export const TRANSLATIONS = {
     heroHeading: "विश्वसनीय चिकित्सा, आपके दिल के करीब।",
     heroSubheading: "मंदसौर में सर्जरी और स्त्री रोग की सुविधा एक ही छत के नीचे।",
     heroTrustPoints: [
-      "25+ वर्षों का विश्वास",
+      "25+ वर्षों का अनुभव",
       "गूगल पर 4.6 रेटिंग",
       "सहानुभूतिपूर्ण देखभाल"
     ],

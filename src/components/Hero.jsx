@@ -113,19 +113,19 @@ export default function Hero() {
             {/* Trust Points */}
             <div className="hero-trust-list">
               <div className="trust-item">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
-                <span>{isHindi ? "25+ वर्षों का विश्वास" : "25+ years of trust"}</span>
+                <span>{isHindi ? "25+ वर्षों का अनुभव" : "25+ years of experience"}</span>
               </div>
               <div className="trust-item">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
                 <span>{isHindi ? "गूगल पर 4.6 रेटिंग" : "4.6 rating on Google"}</span>
               </div>
               <div className="trust-item">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
                 <span>{isHindi ? "सहानुभूतिपूर्ण देखभाल" : "Gentle patient care"}</span>
@@ -371,23 +371,36 @@ export default function Hero() {
           }
         }
 
-        /* Trust list */
+        /* Trust list - Enhanced size & prominence */
         .hero-trust-list {
           display: flex;
           flex-wrap: wrap;
-          gap: 1.25rem;
-          padding-top: 1.25rem;
-          margin-top: 1.75rem;
-          border-top: 1px solid rgba(201, 162, 75, 0.2);
+          gap: 1.5rem 2.25rem;
+          padding-top: 1.5rem;
+          margin-top: 2rem;
+          border-top: 1px solid rgba(201, 162, 75, 0.35);
         }
 
         .trust-item {
           display: flex;
           align-items: center;
-          gap: 0.45rem;
-          color: #E2D2C3;
-          font-size: 0.88rem;
-          font-weight: 500;
+          gap: 0.65rem;
+          color: #FAF5EC;
+          font-size: 1.08rem;
+          font-weight: 600;
+          letter-spacing: 0.01em;
+        }
+
+        @media (min-width: 992px) {
+          .trust-item {
+            font-size: 1.15rem;
+          }
+        }
+
+        .trust-item svg {
+          flex-shrink: 0;
+          color: #E7CB87;
+          filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.5));
         }
 
         /* Visual Framed Card - Full Aspect Ratio 1024x922 Display */
