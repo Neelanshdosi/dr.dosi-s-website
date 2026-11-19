@@ -114,18 +114,26 @@ export default function Gallery() {
         .gallery-grid {
           display: grid;
           grid-template-columns: 1fr;
-          gap: 1.75rem;
+          gap: 1.5rem;
         }
 
-        @media (min-width: 680px) {
+        @media (min-width: 600px) {
+          .gallery-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+          }
+        }
+
+        @media (min-width: 992px) {
           .gallery-grid {
             grid-template-columns: repeat(3, 1fr);
+            gap: 1.75rem;
           }
         }
 
         .gallery-card {
           background: #FFFFFF;
-          border-radius: var(--radius-md);
+          border-radius: 0;
           overflow: hidden;
           border: 1px solid var(--color-card-border);
           box-shadow: var(--shadow-sm);

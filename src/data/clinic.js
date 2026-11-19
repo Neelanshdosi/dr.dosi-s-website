@@ -144,19 +144,43 @@ export const GALLERY_ITEMS = [
     hindiCaption: "क्लीनिक भवन – दोसी भवन, नई आबादी"
   },
   {
-    id: "reception",
-    src: "/assets/reception.jpg",
-    alt: "Welcoming reception and patient waiting area at Dr. Dosi's Clinic",
-    hindiAlt: "डॉ. दोसी क्लीनिक का स्वागत कक्ष एवं प्रतीक्षालय",
-    caption: "Patient Waiting Area & Reception Desk",
-    hindiCaption: "प्रतीक्षा कक्ष एवं स्वागत पटल"
+    id: "waiting-lounge",
+    src: "/assets/waiting_lounge.jpg",
+    alt: "Spacious OPD waiting lounge and patient seating area outside doctor chambers",
+    hindiAlt: "डॉक्टर चैंबर के बाहर मरीजों के लिए सुव्यवस्थित प्रतीक्षालय एवं बैठक व्यवस्था",
+    caption: "Spacious OPD Waiting Lounge & Patient Seating",
+    hindiCaption: "विशाल ओपीडी प्रतीक्षालय एवं बैठक व्यवस्था"
   },
   {
-    id: "consultation",
+    id: "medical-store",
+    src: "/assets/medical_store.jpg",
+    alt: "In-house Dosi Medical Stores providing medicines on premises for patient convenience",
+    hindiAlt: "मरीजों की सुविधा के लिए क्लीनिक परिसर में इन-हाउस दोसी मेडिकल स्टोर",
+    caption: "In-House Medical Store – For Patient Convenience",
+    hindiCaption: "इन-हाउस मेडिकल स्टोर – मरीजों की सुविधा हेतु"
+  },
+  {
+    id: "consultation-gynec",
+    src: "/assets/consultation_dr_manisha.jpg",
+    alt: "Dr. Manisha Dosi's gynecology consultation and examination chamber",
+    hindiAlt: "डॉ. मनीषा दोसी का स्त्री रोग परामर्श एवं परीक्षण कक्ष",
+    caption: "Gynecology Consultation & Examination Chamber",
+    hindiCaption: "स्त्री रोग विशेषज्ञ परामर्श एवं परीक्षण कक्ष"
+  },
+  {
+    id: "consultation-surgery",
     src: "/assets/consultation.jpg",
-    alt: "Doctor consultation room equipped for patient examinations",
-    hindiAlt: "डॉक्टर परामर्श कक्ष, डॉ. दोसी क्लीनिक",
-    caption: "Private Consultation & Examination Chamber",
-    hindiCaption: "परामर्श एवं परीक्षण कक्ष"
+    alt: "Dr. Jinesh Dosi's surgical consultation and patient evaluation chamber",
+    hindiAlt: "डॉ. जिनेश दोसी का सर्जिकल परामर्श एवं परीक्षण कक्ष",
+    caption: "Surgical Consultation & Examination Chamber",
+    hindiCaption: "सर्जिकल परामर्श एवं परीक्षण कक्ष"
+  },
+  {
+    id: "reception",
+    src: "/assets/reception.jpg",
+    alt: "Reception counter and admission desk at Dr. Dosi's Clinic",
+    hindiAlt: "डॉ. दोसी क्लीनिक का स्वागत कक्ष एवं पंजीकरण पटल",
+    caption: "Reception Counter & Registration Desk",
+    hindiCaption: "स्वागत कक्ष एवं पंजीकरण पटल"
   }
 ];
