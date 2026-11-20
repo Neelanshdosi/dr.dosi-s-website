@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://dr-dosis-clinic.vercel.app/sitemap.xml
+
