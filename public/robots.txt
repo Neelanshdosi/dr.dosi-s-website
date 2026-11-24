@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dr-dosis-clinic.vercel.app/sitemap.xml
+Sitemap: https://www.drdosiclinic.com/sitemap.xml
 
