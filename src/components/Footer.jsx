@@ -73,12 +73,12 @@ export default function Footer() {
             <h3 className="footer-col-title">{t('hoursTitle')}</h3>
             <div className="footer-hours-box">
               <div className="footer-hours-row">
-                <span>{CLINIC_INFO.hours.days}:</span>
-                <strong>{CLINIC_INFO.hours.timings}</strong>
+                <span>{isHindi ? CLINIC_INFO.hours.hindiDays : CLINIC_INFO.hours.days}:</span>
+                <strong>{isHindi ? CLINIC_INFO.hours.hindiTimings : CLINIC_INFO.hours.timings}</strong>
               </div>
               <div className="footer-hours-row closed-row">
-                <span>{CLINIC_INFO.hours.sunday}:</span>
-                <strong>{isHindi ? CLINIC_INFO.hours.hindiSunday : CLINIC_INFO.hours.sunday}</strong>
+                <span>{t('daySunday')}:</span>
+                <strong>{t('statusClosed')}</strong>
               </div>
             </div>
             <p className="footer-notice-note">
