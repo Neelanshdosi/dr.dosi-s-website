@@ -38,6 +38,7 @@ export default function Header() {
     { href: '#services', label: t('navServices') },
     { href: '#gallery', label: t('navGallery') },
     { href: '#reviews', label: t('navReviews') },
+    { href: '#faq', label: t('navFaq') },
     { href: '#contact', label: t('navContact') }
   ];
 

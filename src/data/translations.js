@@ -11,6 +11,7 @@ export const TRANSLATIONS = {
     navServices: "Services",
     navReviews: "Reviews",
     navGallery: "Gallery",
+    navFaq: "FAQ",
     navContact: "Contact",
     callNow: "Call Now",
     callToBook: "Call to Book",
@@ -21,7 +22,7 @@ export const TRANSLATIONS = {
 
     // Hero Section
     heroHeading: "Care you can trust, close to heart.",
-    heroSubheading: "Surgery and gynecology under one roof in Mandsaur.",
+    heroSubheading: "Dr. Dosi Clinic offers surgery and gynecology under one roof in Mandsaur.",
     heroTrustPoints: [
       "25+ years of experience",
       "4.6 rating on Google",
@@ -30,7 +31,7 @@ export const TRANSLATIONS = {
 
     // About Brief Banner
     aboutHeading: "A Calming Haven for Healing and Motherhood",
-    aboutText: "Located in the heart of Mandsaur, Dr. Dosi's Surgery & Gynec Clinic is dedicated to offering personalized, dignified, and gentle healthcare. Whether you are embracing motherhood or seeking dependable surgical advice, our doctors offer patient, clear, and reassuring counsel at every step.",
+    aboutText: "Located in the heart of Mandsaur, Dr. Dosi Clinic (Dr. Dosi's Clinic) is dedicated to offering personalized, dignified, and gentle healthcare. Whether you are embracing motherhood or seeking dependable surgical advice, our doctors offer patient, clear, and reassuring counsel at every step.",
     aboutHighlight1Title: "Patient-First Listening",
     aboutHighlight1Desc: "Ample consultation time with transparent, stress-free guidance.",
     aboutHighlight2Title: "Safe Deliveries",
@@ -66,6 +67,10 @@ export const TRANSLATIONS = {
     previousImage: "Previous photo",
     nextImage: "Next photo",
 
+    // FAQ Section
+    faqSectionTitle: "Frequently Asked Questions",
+    faqSectionSubtitle: "Find clear answers about consultations, doctors, location, and services at Dr. Dosi Clinic.",
+
     // Contact & Location Section
     contactSectionTitle: "Contact & Location",
     contactSectionSubtitle: "Visit us at Nai Abaadi or reach out to confirm clinic timings and consultation appointments.",
@@ -97,6 +102,7 @@ export const TRANSLATIONS = {
     navServices: "सेवाएं",
     navReviews: "समीक्षाएं",
     navGallery: "गैलरी",
+    navFaq: "FAQ",
     navContact: "संपर्क",
     callNow: "कॉल करें",
     callToBook: "परामर्श हेतु कॉल करें",
@@ -107,7 +113,7 @@ export const TRANSLATIONS = {
 
     // Hero Section
     heroHeading: "विश्वसनीय चिकित्सा, आपके दिल के करीब।",
-    heroSubheading: "मंदसौर में सर्जरी और स्त्री रोग की सुविधा एक ही छत के नीचे।",
+    heroSubheading: "डॉ. डोसी क्लीनिक (Dr. Dosi Clinic) – मंदसौर में सर्जरी और स्त्री रोग की सुविधा एक ही छत के नीचे।",
     heroTrustPoints: [
       "25+ वर्षों का अनुभव",
       "गूगल पर 4.6 रेटिंग",
@@ -116,7 +122,7 @@ export const TRANSLATIONS = {
 
     // About Brief Banner
     aboutHeading: "मातृत्व एवं स्वास्थ्य लाभ के लिए एक आत्मीय व शांत वातावरण",
-    aboutText: "मंदसौर के हृदय स्थल में स्थित डॉ. डोसी सर्जरी एवं गायनेक क्लीनिक में प्रत्येक मरीज को आदर, समय और सहानुभूति के साथ उत्तम चिकित्सा प्रदान की जाती है। गर्भावस्था के सफर से लेकर सर्जरी परामर्श तक, हमारे डॉक्टर्स हर कदम पर पूरी संतुष्टि और विश्वास के साथ मार्गदर्शन करते हैं।",
+    aboutText: "मंदसौर के हृदय स्थल में स्थित डॉ. डोसी क्लीनिक (Dr. Dosi Clinic / Dr. Dosi's Clinic) में प्रत्येक मरीज को आदर, समय और सहानुभूति के साथ उत्तम चिकित्सा प्रदान की जाती है। गर्भावस्था के सफर से लेकर सर्जरी परामर्श तक, हमारे डॉक्टर्स हर कदम पर पूरी संतुष्टि और विश्वास के साथ मार्गदर्शन करते हैं।",
     aboutHighlight1Title: "सहानुभूतिपूर्ण परामर्श",
     aboutHighlight1Desc: "मरीज की हर शंका का धैर्यपूर्वक व शांत मन से निवारण।",
     aboutHighlight2Title: "सुरक्षित प्रसव",
@@ -151,6 +157,10 @@ export const TRANSLATIONS = {
     closeLightbox: "फोटो व्यूअर बंद करें",
     previousImage: "पिछली फोटो",
     nextImage: "अगली फोटो",
+
+    // FAQ Section
+    faqSectionTitle: "अक्सर पूछे जाने वाले प्रश्न",
+    faqSectionSubtitle: "डॉ. डोसी क्लीनिक में परामर्श, डॉक्टर, पते एवं सेवाओं से संबंधित मुख्य प्रश्न।",
 
     // Contact & Location Section
     contactSectionTitle: "संपर्क एवं पता",

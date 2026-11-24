@@ -8,6 +8,7 @@ import Doctors from './components/Doctors';
 import Services from './components/Services';
 import Reviews from './components/Reviews';
 import Gallery from './components/Gallery';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingCallButton from './components/FloatingCallButton';
@@ -70,7 +71,12 @@ function MainContent() {
           <Reviews />
         </div>
 
-        {/* 7. Contact & Location Section */}
+        {/* 7. Patient FAQ Section */}
+        <div className="fade-in-section">
+          <FAQ />
+        </div>
+
+        {/* 8. Contact & Location Section */}
         <div className="fade-in-section">
           <Contact />
         </div>
